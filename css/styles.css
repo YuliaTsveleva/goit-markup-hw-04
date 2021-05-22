@@ -176,7 +176,7 @@ body {
 }
 
 .tel-icon {
-  fill: var(--main-text-color);
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -184,7 +184,7 @@ body {
 .contacts-link:focus .mail-icon,
 .contacts-link:hover .tel-icon,
 .contacts-link:focus .tel-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 /*===header end===*/
 
